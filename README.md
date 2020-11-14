@@ -11,11 +11,15 @@ The goal of checkdata is to check whether the data is normal or not.
 
 2. Generate a README file by the `use_readme_md()` from the **usethis** package.  
 
-3. Generate a LICENSE file by the `use_mit_license("yelselmiao")` from the **usethis** package.  
+3. Generate a LICENSE file by the `use_mit_license("Shuyi Tan")` from the **usethis** package.  
 
 4. Wrap my **normarlity_test()** function into a R script named **normality.R** and save it in the R folder.  
 
 5. Generate a test folder by the function `use_test("my-test")` from the **usethis** package.  
+
+6. Make a vignette by `usethis::use_vignette("Vignette")`
+
+7. Document the files by `devtools::document()`
 
 6. Create a remote repository in github.com and named as "checkdata"  
 
