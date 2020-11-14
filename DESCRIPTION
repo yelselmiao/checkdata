@@ -1,6 +1,6 @@
 Package: checkdata
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Check normality of data
 Version: 0.1.0
 Author: Shuyi Tan
 Maintainer: The package maintainer <shuyi.tan@stat.ubc.ca>
