@@ -13,7 +13,7 @@ The goal of checkdata is to check whether the data is normal or not.
 
 3. Generate a LICENSE file by the `use_mit_license("yelselmiao")` from the **usethis** package.  
 
-4. Wrap my normarlity_test function into a R script named **normality.R** and save it in the R folder.  
+4. Wrap my **normarlity_test()** function into a R script named **normality.R** and save it in the R folder.  
 
 5. Generate a test folder by the function `use_test("my-test")` from the **usethis** package.  
 
