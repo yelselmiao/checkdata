@@ -1,0 +1,43 @@
+---
+title: "Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Load the library 
+```{r setup}
+library(checkdata)
+```
+
+We will run the function on the R built-in dataset **iris**, which contains the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. You can find a more detailed description [here](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html).
+
+To see whether the column/variable `Sepal.Length` is normal, let's run it through the normarlity_test() function.
+
+```{r warning=FALSE}
+normarlity_test(iris$Sepal.Length,alpha=0.05,plotting = TRUE,verbose=TRUE)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
