@@ -30,3 +30,5 @@ The goal of checkdata is to check whether the data is normal or not.
     - Push the local repo to the remote repo: `git remote add origin https://github.com/yelselmiao/checkdata` and `git remote -v` 
     - Push the changes to the remote repo: `git push -f origin master`
   
+## Package installation
+`devtools::install_github("yelselmiao/checkdata")`
