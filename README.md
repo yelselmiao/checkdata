@@ -4,6 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+## Package discription
 This `checkdata` data package is built to evaluate whether a vector of normally distributed by two methods:
 1. Visualization 
     - Histogram
@@ -36,4 +37,20 @@ This `checkdata` data package is built to evaluate whether a vector of normally 
     - Push the changes to the remote repo: `git push -f origin master`
   
 ## Package installation
+The package can be installed by running the following line:  
 `devtools::install_github("yelselmiao/checkdata")`
+
+
+## Basic usage and example
+`library(checkdata)`
+
+For example, if we would like to check if the **mpg** column in the **mtcars** dataset is normal, we may check it like this:
+`
+data("mtcars")
+normarlity_test(mtcars$mpg)
+
+#> "You data is normal,because your p_value = 0.122881358539443 > 0.05"
+
+
+
+`
