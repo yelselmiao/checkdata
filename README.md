@@ -55,4 +55,4 @@ normarlity_test(mtcars$mpg)
 #> "You data is normal,because your p_value = 0.122881358539443 > 0.05"
 ```
 <img src="vignettes/Vignette_files/figure-gfm/unnamed-chunk-2-1.png" width="100%" style="display: block; margin: auto;" />
-You can observe that the density plot is approximately overlapped with the standard normal density plot, and most of the points lie on the diagonal line in the qqplot, now we can roughly infer that the **mpg** column is normally distributed. Besides, our inference is furthered strengthened by the result by the Shapiro-Wilk test.
+You can observe that the density plot is approximately overlapped with the standard normal density plot, and most of the points lie on the diagonal line in the qqplot, now we can roughly infer that the mpg column is normally distributed. Besides, our inference is furthered strengthened by the result of the Shapiro-Wilk test.
