@@ -38,18 +38,23 @@ This `checkdata` data package is built to evaluate whether a vector of normally 
   
 ## Package installation
 The package can be installed by running the following line:  
-`devtools::install_github("yelselmiao/checkdata")`
-
+``` r
+devtools::install_github("yelselmiao/checkdata")`
+```
 
 ## Basic usage and example
-`library(checkdata)`
+``` r
+library(checkdata)`
+```
 
 For example, if we would like to check if the **mpg** column in the **mtcars** dataset is normal, we may check it like this:
-`
+
+``` r
 data("mtcars")
 normarlity_test(mtcars$mpg)
-
 #> "You data is normal,because your p_value = 0.122881358539443 > 0.05"
+```
+<img src="vignettes/Vignette_files/figure-gfm/unnamed-chunk-2-1.png" width="100%" style="display: block; margin: auto;" />
 
 
 
