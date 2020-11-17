@@ -5,7 +5,7 @@
 <!-- badges: end -->
 
 ## Package discription
-This `checkdata` data package is built to evaluate whether a vector of normally distributed by two methods:
+This `checkdata` data package is built to evaluate whether a vector is normally distributed by two methods:
 1. Visualization 
     - Histogram
     - QQ-plot 
