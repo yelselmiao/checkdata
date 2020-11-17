@@ -4,7 +4,12 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of checkdata is to check whether the data is normal or not.
+This `checkdata` data package is built to evaluate whether a vector of normally distributed by two methods:
+1. Visualization 
+    - Histogram
+    - QQ-plot 
+2. The Shapiro-Wilk test
+    - by looking at the p-value based on the user-defined level of significance
 
 ## Package set up 
 1. Create a new project in Rstudio and specify the project type as a package in the local Rstudio environment.  
