@@ -44,7 +44,7 @@ devtools::install_github("yelselmiao/checkdata")`
 
 ## Basic usage and example
 ``` r
-library(checkdata)`
+library(checkdata)
 ```
 
 For example, if we would like to check if the **mpg** column in the **mtcars** dataset is normal, we may check it like this:
